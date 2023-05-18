@@ -4,8 +4,13 @@
   box-sizing: border-box;
   font-family: lora, sans-serif;
 }
-html{
-   scroll-behavior: smooth;
+
+html {
+  scroll-behavior: smooth;
+}
+#Main-Container
+{
+  overflow: hidden;
 }
 
 #header {
@@ -17,6 +22,7 @@ html{
   background-size: cover;
   background-attachment: fixed;
 }
+
 .header-content {
   width: 100%;
   background-color: rgb(110, 6, 158);
@@ -24,6 +30,7 @@ html{
   top: 0;
   z-index: 9;
 }
+
 #header .header-items {
   width: 80%;
   margin: 0 auto;
@@ -31,11 +38,14 @@ html{
   display: flex;
   justify-content: space-between;
   align-items: center;
+
 }
+
 #header .header-items h4 {
   color: #fff;
   font-size: 30px;
 }
+
 #header .header-items ul {
   display: flex;
   align-items: center;
@@ -46,6 +56,7 @@ html{
   margin-left: 35px;
   list-style: none;
 }
+
 #header .header-items ul li a {
   text-decoration: none;
   color: #fff;
@@ -57,9 +68,10 @@ html{
   position: absolute;
   top: 35%;
   left: 50%;
-  transform: translate(-50%);
+  transform: translate(-50%,-50%);
   text-align: center;
   color: #fff;
+  width: 60%;
 }
 
 .banner h1 {
@@ -82,6 +94,7 @@ html{
   font-size: 16px;
   transition: 0.5s;
 }
+
 .btn:hover {
   border: 2px solid #fff;
   background: none;
@@ -137,14 +150,17 @@ html{
   padding: 30px 20px;
   border-radius: 5px;
 }
+
 .service-items:hover {
   box-shadow: 10px 10px 10px 3px lavender;
   transition: 0.7s;
 }
+
 .service-items i {
   color: rgb(116, 21, 206);
   font-size: 22px;
 }
+
 .service-items h4 {
   font-size: 18px;
   padding: 15px 0px;
@@ -156,9 +172,11 @@ html{
   /* padding: 7px 0px; */
   line-height: 26px;
 }
+
 .service-box2 {
   padding-bottom: 50px;
 }
+
 .Service-heading p {
   padding: 14px 0px;
 }
@@ -178,6 +196,7 @@ html{
   margin: 0 auto;
   /* flex-wrap: wrap; */
 }
+
 .ServiceAbout .two-section .left {
   width: 49%;
 }
@@ -186,6 +205,7 @@ html{
   font-size: 17px;
   padding: 7px 0px;
 }
+
 .ServiceAbout .two-section p {
   padding: 7px 0px;
   list-style: 26px;
@@ -239,6 +259,7 @@ html{
 .works .effect:hover {
   opacity: 1;
 }
+
 .works2 {
   margin-top: 10px;
   padding-bottom: 50px;
@@ -256,13 +277,16 @@ html{
   /* padding: 20px 50px; */
   text-align: center;
 }
+
 .Starter {
   height: 160px;
   border-bottom: 1px solid lightgray;
 }
+
 .Starter h5 {
   padding-top: 55px;
 }
+
 .plan .price {
   flex-basis: 32%;
 }
@@ -274,6 +298,7 @@ html{
 .plan {
   padding-bottom: 40px;
 }
+
 .btn3 {
   margin-bottom: 20px;
   padding: 9px 15px;
@@ -283,20 +308,19 @@ html{
   color: #fff;
 }
 
-.btn3:hover
-{
-   border: 1px solid blueviolet;
-   background: none;
-   color: #000;
+.btn3:hover {
+  border: 1px solid blueviolet;
+  background: none;
+  color: #000;
 }
 
 .plan .price {
   border-radius: 4px;
   transition: 1s;
 }
-.plan .price:hover
-{
-   box-shadow: 10px 10px 10px 3px lavender;
+
+.plan .price:hover {
+  box-shadow: 10px 10px 10px 3px lavender;
 
 }
 
@@ -315,6 +339,7 @@ html{
   border-radius: 4px;
   box-shadow: none;
 }
+
 #counting .Starter {
   display: flex;
   align-items: center;
@@ -324,6 +349,7 @@ html{
   height: auto;
   padding: 30px 2px;
 }
+
 #counting .Starter h4 {
   padding: 14px 0px;
   font-size: 32px;
@@ -356,36 +382,44 @@ html{
   height: 100%;
   object-fit: cover;
 }
+
 .portfolio {
   width: 100%;
   padding: 40px 0px;
   background-color: #f9f9f9;
 }
+
 .portfolio .mySwiper {
   margin: 0 auto;
   width: 80%;
 }
+
 .portfolio .swiper-slide {
   display: flex;
 }
+
 .portfolio .swiper-slide img {
   width: 80px;
   height: 80px;
   border-radius: 50%;
 }
+
 .portfolio .swiper-slide {
   flex-direction: column;
   cursor: pointer;
 }
+
 .pdiv {
   display: flex;
   width: 100%;
   /* flex-direction: column; */
 }
+
 .pdiv h3 {
   padding-top: 25px;
   padding-left: 15px;
 }
+
 .pdiv h4 {
   padding-left: 15px;
   font-size: 15px;
@@ -400,12 +434,14 @@ html{
 .pdiv .Pimg h3 {
   text-align: left;
 }
+
 .swiper-slide {
   border: 1px solid rgb(240, 234, 234);
   padding: 20px 10px;
   background: #fff;
   border-radius: 3px;
 }
+
 .rating {
   text-align: left;
   width: 100%;
@@ -438,6 +474,7 @@ html{
   border-radius: 4px;
   padding: 36px 20px;
 }
+
 .newslater .news .news_box form input {
   width: 100%;
   padding: 12px 15px;
@@ -446,6 +483,7 @@ html{
   margin-top: 17px;
   background-color: #eceaea;
 }
+
 .newslater .news .news_box form button {
   text-align: center;
   margin-top: 13px;
@@ -456,6 +494,7 @@ html{
   text-align: center;
   padding: 10px 0px;
 }
+
 .newslater .news .news_box p {
   font-size: 15px;
 }
@@ -463,11 +502,13 @@ html{
 .newslater .news .news_box_2 {
   background: none;
 }
+
 .newslater .news .news_box_2 .box {
   background: #fff;
   padding: 10px 10px;
   margin-top: 10px;
 }
+
 .newslater .news .news_box_2 .box p {
   text-align: justify;
 }
@@ -475,11 +516,13 @@ html{
 .newslater .news .news_box_2 .box_1 {
   margin-top: 0px;
 }
+
 .newslater .news .news_box_2 .box i {
   color: blueviolet;
   font-size: 22px;
   margin-right: 10px;
 }
+
 .newslater .news .news_box_2 .box {
   border-radius: 4px;
 }
@@ -490,9 +533,9 @@ html{
   width: 100%;
   padding: 50px 0px;
 }
-.map iframe
-{
-   width: 100%;
+
+.map iframe {
+  width: 100%;
   height: 500px;
 
 }
@@ -525,12 +568,14 @@ html{
   padding-bottom: 15px;
   font-weight: 600;
 }
+
 .footer .footer_section .footer_box p {
   padding: 10px 2px;
   text-align: justify;
   font-size: 15px;
   color: #546e7a;
 }
+
 .footer .footer_section .footer_box p a {
   text-decoration: none;
   color: #546e7a;
@@ -554,17 +599,48 @@ html{
 }
 
 @media only screen and (max-width: 850px) {
-  .ServiceAbout .two-section {
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+
+  #header {
+    /* height: 85vh; */
+  }
+  .banner {
+    /* margin: 0 auto; */
+    top: 45%;
+  }
+  .service-box {
+    justify-content: space-around;
+    flex-wrap: wrap;
   }
 
+  .service-items
+  {
+    margin-top: 20px;
+  }
+  .service-box2
+{
+  padding-top: 20px;
+}
+.Service-heading
+{
+  width: 60%;
+}
+.ServiceAbout .two-section {
+ 
+   flex-wrap: wrap; 
+}
+.service-box2 {
+  padding-bottom: 0px;
+}
+
   .ServiceAbout .two-section .left {
-    width: 80%;
+    width: 100%;
   }
 
   .ServiceAbout .two-section .left img {
     width: 100%;
   }
+  .ServiceAbout {
+    padding:  0px;
+
+}
 }
