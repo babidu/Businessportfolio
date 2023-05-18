@@ -600,9 +600,9 @@ html {
 
 @media only screen and (max-width: 850px) {
 
-  #header {
-    /* height: 85vh; */
-  }
+  /* #header {
+    height: 85vh;
+  } */
   .banner {
     /* margin: 0 auto; */
     top: 45%;
@@ -643,4 +643,102 @@ html {
     padding:  0px;
 
 }
+
+.works {
+  flex-direction: column;
+}
+.works .img
+{
+  width: 100%;
+}
+.works .img img {
+  width: 100%;
+}
+.works2 {
+  margin-top: 0px;
+  padding-bottom: 0px;
+}
+#counting .price
+{
+  margin-top: 10px;
+}
+#Pricing .price
+{
+  margin-top: 10px;
+}
+.portfolio .swiper-wrapper
+{
+  /* display: flex; */
+  /* flex-direction: column; */
+}
+.pdiv {
+ 
+  width: 50%;
+  /* flex-direction: column; */
+}
+.portfolio .swiper-slide
+{
+  text-align: left;
+}
+
+.portfolio .swiper-slide img {
+  width: 40px;
+  height: 40px;
+  margin-right: 30px;
+}
+.pdiv h3 {
+  padding-top: 0px;
+  /* padding-left: 15px; */
+}
+.Pimg
+{
+  width: 100%;
+}
+.portfolio .Pimg-2
+{
+margin-left: -35px;
+}
+.portfolio .Pimg-3{
+  margin-left: -10px;
+}
+.portfolio .Pimg-3 h4
+{
+  font-size: 12px;
+  font-weight: 600;
+}
+.newslater .news {
+  flex-direction: column;
+}
+.newslater .news .news_box {
+  width: 100%;
+
+}
+.news_box_2
+{
+ margin-top: 15px;
+}
+.newslater .news .news_box
+{
+  padding: 0;
+}
+#news_box
+{
+  padding: 36px 20px;
+}
+.map iframe {
+
+  height: 400px;
+
+}
+.footer .footer_section .footer_box {
+  width: 100%;
+}
+.footer .footer_section
+{
+  flex-direction: column;
+}
+.instagram .img img {
+  width: 95%;
+}
+
 }
