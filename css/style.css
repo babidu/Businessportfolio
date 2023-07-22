@@ -29,8 +29,6 @@ html {
   position: fixed;
   top: 0;
   z-index: 9;
-  position: relative;
-
 }
 
 #header .header-items {
